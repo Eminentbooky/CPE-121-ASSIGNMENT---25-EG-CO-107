@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+int main(){
+string name;
+int score1, score2, score3;
+cout<<"Enter Students name: "<<endl;
+cin>>name;
+cout<<"Enter Three Test Scores"<<endl;
+cin>>score1>>score2>>score3;
+double average = (score1 + score2 + score3)/3.0;
+cout<<fixed<<setprecision(2)<<"Average: "<<average<<endl;
+return 0;
+}
